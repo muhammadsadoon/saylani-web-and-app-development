@@ -1,0 +1,14 @@
+./home.html
+    |
+    |_contact
+    |    |_contact.html
+    |_about us
+    |    |_about.html
+    |    |_about-service
+    |        |_about-service.html
+    |_product
+    |    |_content
+    |    |   |_content.html
+    |    |_list
+    |        |_list.html
+
