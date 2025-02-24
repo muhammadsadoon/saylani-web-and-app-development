@@ -13,9 +13,9 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - **Assignment-no-3**: Third Create simple page
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 3](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_3)
 - **Assignment-no-4**: Fourth Create simple page
-- **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 3](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_4)
+- **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 4](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_4)
 - **Assignment-no-5**: Fifth Create simple page
-- **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 3](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_5)
+- **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 5](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_5)
 
 ## Features
 
