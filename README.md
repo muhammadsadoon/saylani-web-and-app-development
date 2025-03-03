@@ -3,7 +3,7 @@
 # HTML Assignment Submission
 
 Welcome to my HTML assignment! In this project, I explored the basic structure of an HTML document and learned how to create a simple web page. The goal was to practice HTML tags, formatting, and integrating images. This is my first attempt at using HTML, and I have successfully submitted it on GitHub.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eb1377fc-07e1-44ca-9baa-867dc47e52c4/deploy-status)](https://app.netlify.com/sites/all-assignment-saylani/deploys)
 ## Project Overview
 
 - **Assignment-no-1**: Frist Create simple page
