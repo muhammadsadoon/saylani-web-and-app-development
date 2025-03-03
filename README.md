@@ -22,6 +22,8 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 7](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_7)
 - **Assignment-no-8**: Fifth Create simple page
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 8](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_8)
+- **Assignment-no-9**: Fifth Create simple page
+- **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 9](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_9)
 
 ## Features
 
