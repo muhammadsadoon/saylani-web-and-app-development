@@ -5,7 +5,7 @@
 Welcome to my HTML assignment! In this project, I explored the basic structure of an HTML document and learned how to create a simple web page. The goal was to practice HTML tags, formatting, and integrating images. This is my first attempt at using HTML, and I have successfully submitted it on GitHub.
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eb1377fc-07e1-44ca-9baa-867dc47e52c4/deploy-status)](https://app.netlify.com/sites/all-assignment-saylani/deploys)
 ## Project Overview
-
+### HTML
 - **Assignment-no-1**: Frist Create simple page
 - **Description**:We used olny like heading, paragraph, bold, italic, and samantic tags only [assignment no 1](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_1)
 - **Assignment-no-2**: Second Create list page
@@ -32,6 +32,9 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 12](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_12)
 - **Assignment-no-13**: tenth Create simple page
 - **Description**:We just clone the website of "ajj english tv" We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 13](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_13)
+### CSS
+- **Assignment-no-1**: tenth Create simple page
+- **Description**:I just create a porfolio for myself and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 1](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_1)
 
 ## Features
 
@@ -44,7 +47,7 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 ## Technologies Used
 
 - HTML
-
+- CSS
 ## How to View the Project
 
 1. Clone the repository to your local machine:
