@@ -35,6 +35,8 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 ### CSS
 - **Assignment-no-1**: tenth Create simple page
 - **Description**:I just create a porfolio for myself and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 1](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_1)
+- **Assignment-no-2**: tenth Create simple page
+- **Description**:I just create a naat website and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 2](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_2)
 
 ## Features
 
