@@ -28,15 +28,17 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 10](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_10)
 - **Assignment-no-11**: tenth Create simple page
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 11](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_11)
-- **Assignment-no-12**: tenth Create simple page
+- **Assignment-no-12**: Elevnth Create simple page
 - **Description**:We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 12](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_12)
-- **Assignment-no-13**: tenth Create simple page
+- **Assignment-no-13**: Twelth Create simple page
 - **Description**:We just clone the website of "ajj english tv" We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 13](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/assignment_no_13)
 ### CSS
-- **Assignment-no-1**: tenth Create simple page
+- **Assignment-no-1**: first Create simple page
 - **Description**:I just create a porfolio for myself and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 1](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_1)
-- **Assignment-no-2**: tenth Create simple page
+- **Assignment-no-2**: second Create simple page
 - **Description**:I just create a naat website and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 2](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_2)
+- **Assignment-no-3**: third Create simple page
+- **Description**:I just create a clone of salt'npepper website and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 3](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_3)
 
 ## Features
 
@@ -45,6 +47,8 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - Text formatting (bold, italic)
 - A list of items
 - Embedded image
+- Pure css
+- flex boxes
   
 ## Technologies Used
 
