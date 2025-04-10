@@ -62,4 +62,4 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
    ```bash
    git clone https://github.com/muhammadsadoon/saylani-web-and-app-development
    ```
-##### thank for visiting my page
+<center><h3> thank for visiting my page</h3></center>
