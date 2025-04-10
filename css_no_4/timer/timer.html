@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count down - eid ul ezha</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <h3><a href="../index.html"><i class="bi bi-arrow-left"></i></a></h3>
+    <div class="container">
+        <div class="box">
+            <h1>🕌 Countdown to Eid ul Azha 2025</h1>
+            <div id="countdown">Calculating...</div>
+        </div>
+    </div>
+    <script>
+        function updateCountdown() {
+            const eidDate = new Date("June 8, 2025 00:00:00").getTime();
+            const now = new Date().getTime();
+            const distance = eidDate - now;
+
+            if (distance < 0) {
+                document.getElementById("countdown").innerHTML = "🌙 Eid ul Azha Mubarak!";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML =
+                `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
+        }
+        // Run once immediately
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+
+</html>
