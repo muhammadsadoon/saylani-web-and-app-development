@@ -1,121 +1,205 @@
-	<html>
-	  <head>
-	    <title></title>
-	  </head>
-		<style>
-			a{
-				text-decoration:none;
-			 }
-			*{
-				color:white;
-				background-color:#000;
-				font-family:arial;
-				font-size:20px;
-			}
-		</style>
-	  <body>
-	
-		  <h1>Hey, I am muhammad sadoon Sohail</h1>
-		  <ul>
-			  <li>HTML assignments
-	    <ul>
-	      <li>assignment no 1
-	        <ul>
-	          <li><a href="./assignment_no_1/intorduction/introduction.html">Introduction for myself</a></li>
-	          <li><a href="./assignment_no_1/Role_Of_Education/education.html">Education</a></li>
-	          <li><a href="./assignment_no_1/car/car.html">Car</a></li>
-	          <li><a href="./assignment_no_1/important%20nature%20in%20our%20lives/lives.html">Important lives of nature</a></li>
-	          <li><a href="./assignment_no_1/social_media/media.html">Impect of Social Media</a></li>
-	        </ul>
-	      </li>
-	      <li>assignment no 2
-	        <ul>
-	          <li><a href="./assignment_no_2/list.html">list</a></li>
-	        </ul>
-	      </li>assignment no 3
-	          <ul>
-	            <li><a href="./assignment_no_3/home.html">links</a></li>
-	          </ul>
-	        <li>assignment no 4
-	          <ul>
-	            <li><a href="./assignment_no_4/index.html">links to all pages</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 5
-	          <ul>
-	            <li><a href="./assignment_no_5/index.html">news page</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 6
-	          <ul>
-	            <li><a href="./assignment_no_6/chees/index.html">Chees in Table</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 7
-	          <ul>
-	            <li><a href="./assignment_no_7/periodictable.html">Periodic Table</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 8
-	          <ul>
-	            <li><a href="./assignment_no_8/index.html">Gerenal form</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 9
-	          <ul>
-	            <li><a href="./assignment_no_9/index.html">Portfolio by simple html</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 10
-	          <ul>
-	            <li><a href="./assignment_no_10/index.html">list the all html tags</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 11
-	          <ul>
-	            <li><a href="./assignment_no_11/index.html">Navbar assignment</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 12
-	          <ul>
-	            <li><a href="./assignment_no_12/index.html">create form by assets example</a></li>
-	          </ul>
-	        </li>
-	        <li>assignment no 13
-	          <ul>
-	            <li><a href="./assignment_no_13/index.html">Ajj Website Clone</a></li>
-	          </ul>
-	        </li>
-	    </ul></li>
-		<li>Css assignments
-			<ul>
-				<li>assignment no 1
-	          			<ul>
-	            				<li><a href="./css_no_1/index.html">portfolio assigment</a></li>
-	          			</ul>
-	       			</li>
-				<li>assignment no 2
-	          			<ul>
-	            				<li><a href="./css_no_2/index.html">naat website</a></li>
-	          			</ul>
-	       			</li>
-				<li>assignment no 3
-	          			<ul>
-	            				<li><a href="./css_no_3/index.html">Salt'npepper (clone website)</a></li>
-	          			</ul>
-	       			</li>
-				<li>assignment no 4
-	          			<ul>
-	            				<li><a href="./css_no_4/index.html">calender and countDown of eid-ul-ezha</a></li>
-	          			</ul>
-	       			</li>
-				<li>assignment no 5
-	          			<ul>
-	            				<li><a href="./css_no_5/index.html">clone pokemon website with fixed layout</a></li>
-	          			</ul>
-	       			</li>
-			</ul>
-		</li>
-	</ul>
-	  </body>
-	</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index page layout</title>
+    <style>
+        /* CSS 1: Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f7fa;
+            color: #333;
+        }
+
+        /* CSS 2: Navigation styling */
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+
+        /* CSS 3: Grid layout for sections */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            padding:3rem 2rem;
+        }
+
+        .card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-size: 1.1rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* CSS 4: Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: #fff;
+            margin-top: 2rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2{
+            margin-left: 10%;
+            width: 70%;
+            padding: 20px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Muhammad sadoon</div>
+    </nav>
+
+    <!-- Main Grid -->
+    <h2>HTML ASSIGNMENTS :</h2>
+    <div class="grid-container">
+        <!-- 12 Links inside cards -->
+        <div class="card" id="link1">
+            <a href="./assignment_no_1/intorduction/introduction.html">HTML assignment_no_1 (Part 1)</a>
+            <p>Introduction For Myself</p>
+        </div>
+        <div class="card" id="link2">
+            <a href="./assignment_no_1/Role_Of_Education/education.html">HTML assignment_no_1 (Part 2)</a>
+            <p>Role Of Education</p>
+        </div>
+        <div class="card" id="link3">
+            <a href="./assignment_no_1/car/car.html">HTML assignment_no_1 (Part 3)</a>
+            <p>Car Intorduction</p>
+        </div>
+
+        <div class="card" id="link4">
+            <a href="./assignment_no_1/important%20nature%20in%20our%20lives/lives.html">HTML assignment_no_1 (Part
+                4)</a>
+            <p>important lives of natures</p>
+        </div>
+        <div class="card" id="link5">
+            <a href="./assignment_no_1/social_media/media.html">HTML assignment_no_1 (Part 5)</a>
+            <p>Impact of social_media</p>
+        </div>
+        <div class="card" id="link6">
+            <a href="./assignment_no_2/list.html">assignment no 2</a>
+            <p>menu lists</p>
+        </div>
+        <div class="card" id="link7">
+            <a href="#">assignment no 3</a>
+            <p>links (anchar tags practice..)</p>
+        </div>
+        <div class="card" id="link8">
+            <a href="./assignment_no_4/index.html">assignment no 4</a>
+            <p>links for all pages (anchar tags practices..)</p>
+        </div>
+        <div class="card" id="link9">
+            <a href="./assignment_no_5/index.html">assignment no 5</a>
+            <p>simple new page</p>
+        </div>
+        <div class="card" id="link10">
+            <a href="././assignment_no_6/chees/index.html">assignment no 6</a>
+            <p>chees by table tags</p>
+        </div>
+        <div class="card" id="link11">
+            <a href="./assignment_no_7/periodictable.html"></a>assignment no 7
+            <p>Periodic table by table tags</p>
+        </div>
+        <div class="card" id="link12">
+            <a href="./assignment_no_8/index.html">assignment no 8</a>
+            <p>crate a gerenal forms</p>
+        </div>
+        <div class="card" id="link13">
+            <a href="./assignment_no_9/index.html">assignment no 9</a>
+            <p>portfilio by simple html tags</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./assignment_no_10/index.html">assignment no 10</a>
+            <p>list the all html tags</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./assignment_no_11/index.html">assignment no 11</a>
+            <p>Simple Navbar</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./assignment_no_12/index.html">assignment no 12</a>
+            <p>create form by assets example</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./assignment_no_13/index.html">assignment no 13</a>
+            <p>Clone the ajj new website</p>
+        </div>
+    </div>
+    <h2>CSS ASSIGNMENTS :</h2>
+    <div class="grid-container">
+        <div class="card" id="link14">
+            <a href="./css_no_1/index.html">assignment no 1</a>
+            <p>portfolio assigment</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./css_no_2/index.html">assignment no 2</a>
+            <p>naat website</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./css_no_3/index.html">assignment no 3</a>
+            <p> clone website Salt'npepper</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./css_no_4/index.html">assignment no 4</a>
+            <p>calender and countDown of eid-ul-ezha</p>
+        </div>
+        <div class="card" id="link14">
+            <a href="./css_no_5/index.html">assignment no 5</a>
+            <p><img src="./css_no_5/img/favicon.ico" alt=""> clone pokemon website with fixed layout</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 MySite. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
