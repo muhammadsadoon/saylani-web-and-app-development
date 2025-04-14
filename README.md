@@ -41,6 +41,8 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - **Description**:I just create a clone of salt'npepper website and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 3](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_3)
 - **Assignment-no-4**: third Create simple page
 - **Description**:i create the celander and countdown timer reminder for eid ul ezha and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 4](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_4)
+- **Assignment-no-5**: create a clone of pokemon website by fixed layout
+- **Description**:we create a clone of website of pokemon webite by fixed layout and We used olny like anchar tags, bold, italic, and samantic tags only [assignment no 5](https://github.com/muhammadsadoon/saylani-web-and-app-development/tree/main/css_no_5)
 
 ## Features
 
@@ -51,6 +53,9 @@ Welcome to my HTML assignment! In this project, I explored the basic structure o
 - Embedded image
 - Pure css
 - flex boxes
+- fixed layout
+- colouring
+- position (relative,absolute,fixed,sticky)
   
 ## Technologies Used
 
