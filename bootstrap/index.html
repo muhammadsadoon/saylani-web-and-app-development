@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-secondary position-fixed top-0 w-100 z-3 shadow-sm">
+    <div class="container ">
+      <a class="navbar-brand fs-4" href="#">Profolio<span class="text-info">.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-4" id="navbarScroll">
+        <ul class="nav justify-content-center w-100">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <section id="home">
+      <div class="row row-cols-md-2 row-cols-1 mt-5 w-100">
+        <div class="col w-90 p-5 h-90 d-flex align-items-start justify-content-center flex-column">
+          <h1 class="fs-2 ">Hey, i am</h1>
+          <h3 class=" fs-1">Muhammad <span class="text-info">Sadoon</span></h3>
+          <h4>And I am <span>Full Stack Developer</span></h4>
+        </div>
+        <div class="col w-90 h-90">
+          <img src="./img/header.jpg" class="w-100 h-100" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="mt-4 p-4 skill" id="skill">
+      <h1 class="fs-2 text-center">Skill Section</h1>
+      <div
+        class="row row-cols-2 row-cols-lg-4 flex gap-md-4 pt-3 gap-2  justify-content-center align-items-center w-100 ">
+        <div class="col card shadow-sm" style="width: 18rem;height: 19rem;">
+          <img src="./img/html.png" style="height: 200px; width: 240px; align-self: center;" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">We offer the high skill for market demaned to HTML(Hyper text markup
+              language)</p>
+          </div>
+        </div>
+        <div class=" col card shadow-sm" style="width: 18rem;height: 19rem;">
+          <img src="./img/css.png" style="height: 200px; width: 200px; align-self: center;" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">We learn the css(cascating style sheet) and built the skill for market
+              demaned</p>
+          </div>
+        </div>
+        <div class="col card shadow-sm" style="width: 18rem;height: 19rem;">
+          <img src="./img/boot.png" style="height: 200px; width: 200px; align-self: center;" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">This webiste is best example for bootstrap website for ever..</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <section class="mt-4 p-4 projects" id="projects">
+    <h1 class="fs-2 text-center">Projects</h1>
+    <div
+      class="row row-cols-2 row-cols-lg-4 flex gap-md-4 pt-3 gap-2  justify-content-center align-items-center w-100 ">
+      <div class="col card shadow-sm animate-card" style="width: 18rem;height: 19rem;">
+        <img src="./img/ass-1.png" class="card-img-top" style=" align-self: center;" alt="...">
+        <a href="https://all-assignment-saylani.netlify.app/css_no_3/">
+          <h3 class="z-2 text-info">Salt n' pepper </h3>
+        </a>
+      </div>
+      <div class=" col card shadow-sm animate-card" style="width: 18rem;height: 19rem;">
+        <img src="./img/ass-2.png" class="card-img-top " style=" align-self: center;" alt="...">
+        <a href="https://all-assignment-saylani.netlify.app/css_no_5/">
+          <h3 class="z-2 text-info">Pokemon Website</h3>
+        </a>
+      </div>
+      <div class="col card shadow-sm animate-card" style="width: 18rem;height: 19rem;">
+        <img src="./img/ass-3.png" class="card-img-top " style=" align-self: center;" alt="...">
+        <h3 class="z-2 text-info">Seirra project</h3>
+      </div>
+    </div>
+  </section>
+  <section class="d-flex flex-column align-items-center p-5 justify-content-center" id="contact">
+    <h4>Will Meet for Us!</h4>
+    <div class="wapper">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+  </div>
+  <footer>
+    <h4 class="text-center">supported for me</h4>
+    <div class="row row-cols-md-2 row-cols-1">
+      <div class="col">
+        <img src="./img/smit.png" class="w-60 w-sm-100" alt=""><span class="fs-5">Thanks for saylani walfare trust</span>
+      </div>
+      <div class="col">
+        <img src="./img/boosting.png" alt=""><span class="fs-5">Thanks for career boosting acadmey</span>
+      </div>
+    </div>
+    <div class="w-100 h-auto bg-body-secondary text-center"><span>Muhammad Sadoon</span></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+.projects .animate-card{
+    overflow: hidden !important;
+    position: relative;
+}
+.projects .animate-card img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: transform ease 1.5s;
+    filter: contrast(0.6);
+    cursor: pointer;
+}
+.projects .animate-card h3{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),transparent);
+    position: absolute;
+    left: 0;
+    top: -100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    stroke: 4px white;
+    transition: top ease 0.2s;
+    color: aqua;
+}
+.projects .animate-card:hover h3{
+    top: 0;
+}
+.projects .animate-card:hover img{
+    filter: contrast(1);
+    transform: translateY(-55%);
+}
+.skill .card:hover {
+    transition: all ease 0.3s;
+    border: 2px solid aqua;
+}
+.skill .card{
+    border: 2px solid rgb(189, 189, 189);
+    cursor: pointer;
+}
+footer{
+    margin-top: 50px;
+}
+footer div{
+    width: 100%;
+}
+footer img{
+    height: 80px;
+    width: 90px;
+}
+footer div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wapper{
+    width: 70vw;
+}
