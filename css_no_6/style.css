@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.intro{
+    /* background: url(./assets/img/gradient-bg.png) no-repeat cover !important; */
+    background-image: url(./assets/img/gradient-bg.png);
+    background-size: cover;
+    overflow: hidden !important;
+}
+main.screen_100{
+    height: 125vh;
+}
+main.screen_50 img {
+    top: -40px;
+    left: 45%;
+
+}
+.intro picture {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    animation: showImage linear 1s;
+}
+@keyframes showImage {
+    from{
+        transform: rotate(-90deg);
+        bottom: -25%;
+    }
+    to{
+        transform: rotate(0);
+        bottom: 0;
+    }
+}
+@media (min-width:760px) {
+    main .round{
+        border-radius: 10px !important;
+    }
+}
